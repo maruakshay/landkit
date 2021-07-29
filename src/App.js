@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
+import Homepage from './components/Homepage';
 import './styles.css'
 export default () => {
 
     return (
         <div>
-            <Header />
+            <Homepage/>
         </div>
     )
 }

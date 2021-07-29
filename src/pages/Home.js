@@ -1,6 +1,8 @@
 import React from 'react';
 import website from '../images/website.png';
 import Description from '../components/Description'
+import Tag from '../components/Tag.js';
+import Form from '../components/Form';
 export default () => {
 
 
@@ -29,10 +31,22 @@ export default () => {
             </section>
         </div>
         <div className='section-tag-profile'>
-
+             <Tag imageUrl='' />
+             <Tag imageUrl='' />
+             <Tag imageUrl='' />
+             <Tag imageUrl='' />
+             <Tag imageUrl='' />
         </div>
+            <section className='section-form container'>
+                <div className='row'>
+                    <div className='col'>
+                        <Form/>
+                    </div>
+                    <div className='col'>
 
-        
+                    </div>
+                </div>
+            </section>
         </>
 
     )
