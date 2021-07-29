@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+.header{
+    display: flex ;
+    justify-content : space-between;
+    align-items: center
+}
+a {
+    color: black ;
+    text-decoration: none
+}
+.logo-text{
+    color : #335EEA;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing:-2.6px
+}
+.btn{
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+    background-color: #335EEA;
+    border: none;
+    border-radius: 10px;
+    transition: opacity ease-in-out 0.5s;
+    cursor: pointer;
+}
+.listings{
+    display: flex;
+}
+.listings p {
+    margin: 0 30px;
+    color: black;
+    opacity: 0.5;
+    font-size: 18px;
+}
+.btn:hover{
+    opacity: 0.8
+
+}
+.homepage {
+    margin: auto;
+}
+
+.homepage .row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center
+}
+.homepage .col{
+    flex: 0 0 47%;
+}
+.homepage h1{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 30px;
+    opacity: 0.8
+}
+.homepage span{
+    color: #335EEA;
+    font-weight : 300; 
+}
+.homepage p{
+    opacity: 0.5;
+    line-height:30px;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.homepage button{
+    padding: 15px;
+    border: none;
+    font-size:16px;
+    margin-right: 15px;
+    border-radius:5px
+}
+.homepage .flex-button{
+    margin-top: 30px;
+    display: flex;
+}
+.flex-button .btn-blue{
+    background-color: #335EEA;
+    color: white;
+}
+.flex-button .btn-grey{
+    background-color: rgba(188, 200, 240, 0.2);
+    color: #335EEA;
+
+}
+.btn-blue::after{
+    content : '\25BA';
+    margin-left: 10px;
+}
+.homepage .components{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.homepage .components > *{
+    display: block;
+    flex : 1 1 33.33%
+}
+ .description-box p{
+   opacity: 0.6;
+   text-align: left;
+}
+
+.section-tag-profile{
+    border-top: 2.7px solid rgb(0, 0,0, 12%);
+    padding: 50px 35px;
+    border-bottom:2.7px solid rgb(0, 0,0, 12%);
+}
+
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width: 1080px) {
+    
+    
+    .homepage .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .homepage .flex-button{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:806px){
+    .header .btn{
+        display:none
+    }
+    .listings{
+        flex-direction: column;
+        position: relative;
+    }
+    .listings a {
+        padding: 15px 0;
+        position: absolute;
+
+    }
+}
