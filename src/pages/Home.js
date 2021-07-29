@@ -3,6 +3,7 @@ import website from '../images/website.png';
 import Description from '../components/Description'
 import Tag from '../components/Tag.js';
 import Form from '../components/Form';
+import Grid from '../components/Grid'
 export default () => {
 
 
@@ -48,6 +49,12 @@ export default () => {
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet cursus nunc, id tempus sapien placerat laoreet. Quisque aliquam neque id lobortis dapibus. Mauris ac mauris odio. Vestibulum bibendum dapibus tincidunt. Proin viverra viverra laoreet. Sed vitae faucibus ex. Integer ac nibh facilisis, auctor sem in, pulvinar odio. Phasellus nec eleifend enim. Nunc a sapien fringilla,
                          congue sem eu, rutrum nulla.</p>
+                         <div className='grid-ish'>
+                             <Grid text='hey there' />
+                             <Grid text='hey there' />
+                             <Grid text='hey there' />
+                             <Grid text='hey there' />
+                         </div>
                     </div>
                 </div>
             </section>
