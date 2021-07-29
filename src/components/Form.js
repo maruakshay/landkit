@@ -23,7 +23,7 @@ export default () => {
             user.email = email;
             user.password = password;
             data.push(user);
-            console.log(data);
+            console.log(JSON.stringify(data));
             setName('');
             setEmail('');
             setPassword('');
@@ -44,7 +44,7 @@ export default () => {
                         <input text placeholder='Name' onChange={e => setName(e.target.value)} value={name}/>
                         <input text placeholder='Email' onChange={e => setEmail(e.target.value)} value={email}/>
                         <input text placeholder='Password' onChange={e => setPassword(e.target.value)} value ={password}/>
-                        <button className="btn" style={disable?{cursor:'not-allowed'}: {}}  onClick={handleClick}>{download? 'Download a Sample' : 'Sample Downloaded'}</button>
+                        <button className="btn" style={disable?{cursor:'not-allowed', pointerEvents: 'none'}: {}}  onClick={handleClick}>{download? 'Download a Sample' : 'Sample Downloaded'}</button>
 
                     </div>
                 </div>
