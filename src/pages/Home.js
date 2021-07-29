@@ -16,8 +16,8 @@ export default () => {
 
                     <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
                     <div className='flex-button'>
-                        <button className='btn btn-blue'>View all Pages </button>
-                        <button className='btn btn-grey'>Documentation</button>
+                        <button className='btn btn-blue animate__infinite'>View all Pages </button>
+                        <button className='btn btn-grey'> Documentation</button>
                     </div>
                 </div>
                 <div className='col'>
@@ -37,13 +37,17 @@ export default () => {
              <Tag imageUrl='' />
              <Tag imageUrl='' />
         </div>
-            <section className='section-form container'>
-                <div className='row'>
+            <section className='section-form '>
+                <div className='row container'>
                     <div className='col'>
                         <Form/>
                     </div>
                     <div className='col'>
+                        <h1>The mose useful resource</h1>
+                        <h2>ever created for dev |</h2>
 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet cursus nunc, id tempus sapien placerat laoreet. Quisque aliquam neque id lobortis dapibus. Mauris ac mauris odio. Vestibulum bibendum dapibus tincidunt. Proin viverra viverra laoreet. Sed vitae faucibus ex. Integer ac nibh facilisis, auctor sem in, pulvinar odio. Phasellus nec eleifend enim. Nunc a sapien fringilla,
+                         congue sem eu, rutrum nulla.</p>
                     </div>
                 </div>
             </section>

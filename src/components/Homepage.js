@@ -17,16 +17,16 @@ export default () => {
                    </div>
                    <div className='listings'>
                    <Link to='/landings'>
-                        <p>Landings</p>
+                        Landings
                    </Link>
                    <Link to='/pages'>
-                       <p>Pages</p>
+                       Pages
                    </Link> 
                    <Link to='/account'>
-                       <p>Account</p>
+                       Account
                    </Link> 
                    <Link to='documentation'>
-                       <p>Documentation</p>
+                       Documentation
                    </Link>
                    </div>
                    
